@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebservicesFeiertage", "WebservicesFeiertage\WebservicesFeiertage.csproj", "{97AF26D9-FAB8-4CB9-8ADC-714786E6F507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebservicesFeiertage", "WebservicesFeiertage\WebservicesFeiertage.csproj", "{97AF26D9-FAB8-4CB9-8ADC-714786E6F507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonenDaten", "PersonenDaten\PersonenDaten.csproj", "{89393E9C-E2B6-4D1C-83C6-AB3B1AF0E9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarenKatalog", "WarenKatalog\WarenKatalog.csproj", "{66FCBA2E-A8D5-4ED3-89D0-ADC87359ADF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{97AF26D9-FAB8-4CB9-8ADC-714786E6F507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AF26D9-FAB8-4CB9-8ADC-714786E6F507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AF26D9-FAB8-4CB9-8ADC-714786E6F507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89393E9C-E2B6-4D1C-83C6-AB3B1AF0E9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89393E9C-E2B6-4D1C-83C6-AB3B1AF0E9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89393E9C-E2B6-4D1C-83C6-AB3B1AF0E9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89393E9C-E2B6-4D1C-83C6-AB3B1AF0E9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FCBA2E-A8D5-4ED3-89D0-ADC87359ADF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FCBA2E-A8D5-4ED3-89D0-ADC87359ADF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FCBA2E-A8D5-4ED3-89D0-ADC87359ADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FCBA2E-A8D5-4ED3-89D0-ADC87359ADF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

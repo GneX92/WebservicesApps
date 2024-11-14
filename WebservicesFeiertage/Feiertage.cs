@@ -9,7 +9,7 @@ namespace WebservicesFeiertage;
 public class RootObject
 {
     public string? Status { get; set; }
-    public List<Feiertage>? Feiertage { get; set; }
+    public List<Feiertage> Feiertage { get; set; }
 }
 
 public class Feiertage
