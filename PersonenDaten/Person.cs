@@ -29,8 +29,8 @@ public class Person
 
     public override string ToString()
     {
-        return $"Name: {Vorname}\n Geschätztes Alter: {Age}\n " +
-               $"Geschlecht: {Gender} mit {GenderProbability}% Wahrscheinlichkeit\n " +
+        return $"Geschätztes Alter: {Age}\n" +
+               $"Geschlecht: {Gender} mit {GenderProbability}% Wahrscheinlichkeit\n" +
                $"Ethnicity: {Country? [ 0 ].Country} mit {Country? [ 0 ].Probability}% Wahrscheinlichkeit";
     }
 }
